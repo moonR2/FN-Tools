@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7743538C-0882-4C23-8EA7-09CF9925B4CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FNFNTOOLS</RootNamespace>
+    <AssemblyName>FNFNTOOLS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FNFNTOOLS.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\iconlogo_14M_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Flurl, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.2.8.0\lib\net40\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.2.4.0\lib\net46\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="brnews.cs" />
+    <Compile Include="Estadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="news.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="news.Designer.cs">
+      <DependentUpon>news.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resolution.Designer.cs">
+      <DependentUpon>Resolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="session.Designer.cs">
+      <DependentUpon>session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stats.cs" />
+    <Compile Include="status.cs" />
+    <Compile Include="support.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="support.Designer.cs">
+      <DependentUpon>support.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs" />
+    <EmbeddedResource Include="Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-001.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="news.resx">
+      <DependentUpon>news.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resolution.resx">
+      <DependentUpon>Resolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="session.resx">
+      <DependentUpon>session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support.resx">
+      <DependentUpon>support.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle1801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wins1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matches1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoGrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo text1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo text2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bars1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bars2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bars3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barsHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridBig1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridBig2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo text3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\githubIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\githubIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypalIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconlogo_14M_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo text.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
