@@ -13,3 +13,6 @@ Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 * Record your session game stats (Only available for pc at the moment)
 
 More features coming!!
+
+## Dowload
+https://github.com/moonR2/FN-Tools/releases/tag/1.0
