@@ -124,6 +124,8 @@
             // 
             // btnChangeRes
             // 
+            this.btnChangeRes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnChangeRes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnChangeRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChangeRes.Font = new System.Drawing.Font("Exo 2", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangeRes.ForeColor = System.Drawing.Color.White;

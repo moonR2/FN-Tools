@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.SideMenu = new System.Windows.Forms.Panel();
+            this.btnCfg = new System.Windows.Forms.Button();
             this.btnSupport = new System.Windows.Forms.Button();
             this.btnResolution = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             // SideMenu
             // 
             this.SideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.SideMenu.Controls.Add(this.btnCfg);
             this.SideMenu.Controls.Add(this.btnSupport);
             this.SideMenu.Controls.Add(this.btnResolution);
             this.SideMenu.Controls.Add(this.button1);
@@ -51,6 +53,17 @@
             resources.ApplyResources(this.SideMenu, "SideMenu");
             this.SideMenu.Name = "SideMenu";
             this.SideMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.SideMenu_Paint);
+            // 
+            // btnCfg
+            // 
+            this.btnCfg.FlatAppearance.BorderSize = 0;
+            this.btnCfg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnCfg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
+            resources.ApplyResources(this.btnCfg, "btnCfg");
+            this.btnCfg.ForeColor = System.Drawing.Color.White;
+            this.btnCfg.Name = "btnCfg";
+            this.btnCfg.UseVisualStyleBackColor = true;
+            this.btnCfg.Click += new System.EventHandler(this.btnCfg_Click);
             // 
             // btnSupport
             // 
@@ -136,6 +149,7 @@
         private System.Windows.Forms.Button btnStats;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnSupport;
+        private System.Windows.Forms.Button btnCfg;
     }
 }
 

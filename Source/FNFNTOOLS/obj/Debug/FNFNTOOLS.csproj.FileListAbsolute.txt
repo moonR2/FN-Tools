@@ -25,3 +25,4 @@ C:\Users\moonify\source\repos\FNFNTOOLS\FNFNTOOLS\obj\Debug\FNFNTOOLS.Form1.en-0
 C:\Users\moonify\source\repos\FNFNTOOLS\FNFNTOOLS\obj\Debug\en-001\FNFNTOOLS.resources.dll
 C:\Users\moonify\source\repos\FNFNTOOLS\FNFNTOOLS\obj\Debug\FNFNTOOLS.news.resources
 C:\Users\moonify\source\repos\FNFNTOOLS\FNFNTOOLS\obj\Debug\FNFNTOOLS.support.resources
+C:\Users\moonify\source\repos\FNFNTOOLS\FNFNTOOLS\obj\Debug\FNFNTOOLS.cfg.resources

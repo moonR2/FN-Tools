@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNFNTOOLS", "FNFNTOOLS\FNFNTOOLS.csproj", "{7743538C-0882-4C23-8EA7-09CF9925B4CE}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FNToolsSetup", "FNToolsSetup\FNToolsSetup.vdproj", "{2C158614-827D-434D-A0DF-3066C61257DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{7743538C-0882-4C23-8EA7-09CF9925B4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7743538C-0882-4C23-8EA7-09CF9925B4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7743538C-0882-4C23-8EA7-09CF9925B4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C158614-827D-434D-A0DF-3066C61257DD}.Debug|Any CPU.ActiveCfg = Debug
+		{2C158614-827D-434D-A0DF-3066C61257DD}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

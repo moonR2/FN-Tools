@@ -65,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="brnews.cs" />
+    <Compile Include="cfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cfg.Designer.cs">
+      <DependentUpon>cfg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
       <DependentUpon>support.cs</DependentUpon>
     </Compile>
     <Compile Include="user.cs" />
+    <EmbeddedResource Include="cfg.resx">
+      <DependentUpon>cfg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estadisticas.resx">
       <DependentUpon>Estadisticas.cs</DependentUpon>
     </EmbeddedResource>

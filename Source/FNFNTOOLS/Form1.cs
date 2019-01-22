@@ -126,5 +126,20 @@ namespace FNFNTOOLS
             ParentPanel.Tag = myForm;
             myForm.Show();
         }
+
+        private void btnCfg_Click(object sender, EventArgs e)
+        {
+            if (ParentPanel.Controls.Count > 0)
+            {
+                ParentPanel.Controls.RemoveAt(0);
+            }
+            cfg myForm = new cfg();
+            myForm.TopLevel = false;
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Dock = DockStyle.Fill;
+            ParentPanel.Controls.Add(myForm);
+            ParentPanel.Tag = myForm;
+            myForm.Show();
+        }
     }
 }
