@@ -16,4 +16,5 @@ Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 More features coming!!
 
 ## Dowload
-https://github.com/moonR2/FN-Tools/releases/tag/1.0
+https://github.com/moonR2/FN-Tools/releases/tag/1.1
+
