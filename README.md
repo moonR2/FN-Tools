@@ -1,7 +1,7 @@
-# FN-Tools 1.0
+# FN-Tools 1.1
 Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 
-![FN Tools](https://i.imgur.com/1ZZFWy2.png)
+![FN Tools](https://i.imgur.com/eTsHwtF.png)
 
 ## Features
 * News and Server Status. 
@@ -11,6 +11,7 @@ Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 * Force FULL-SCREEN MODE
 * Allows enable the read-only property to the config file
 * Record your session game stats (Only available for pc at the moment)
+* Take control of Fortnite with fast and safe edit of your configuration file.
 
 More features coming!!
 
