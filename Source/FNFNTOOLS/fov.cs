@@ -129,6 +129,8 @@ namespace FNFNTOOLS
 
         private void Fov_Load(object sender, EventArgs e)
         {
+            string exePath =System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+            txtExe.Text = exePath + @"\ini\";
             string path = getCfgFile();
             if (File.Exists(path) == false)
             {
@@ -152,6 +154,19 @@ namespace FNFNTOOLS
             string cfgFile2 = @"\FortniteGame\Saved\Config\WindowsClient\";
             string path2 = local2 + cfgFile2;
             Process.Start(path2);
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            string filePath = getCfgFile();
+            File.SetAttributes(filePath, File.GetAttributes(filePath) & ~FileAttributes.ReadOnly);
+            string exePath = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+            string root = exePath + @"\ini\";
+            File.Replace(root + "GameUserSettings.ini", filePath, filePath + ".backup");
+            string message = "GameUserSettings got replaced!";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            DialogResult result;
+            result = MessageBox.Show(message, "Settings Saved", buttons, MessageBoxIcon.Information);
         }
     }
 }

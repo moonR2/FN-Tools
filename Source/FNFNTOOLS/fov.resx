@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtInfo.Text" xml:space="preserve">
+    <value>Fov changer works by remplacing your .ini file with a special .ini file, changing your configuration file is allowed and you should have not problems doing this but anyway use this tools at your own risk. Epic give us a fov slider and separeted loot pool, respect your competitive community!!
+
+
+</value>
+  </data>
 </root>

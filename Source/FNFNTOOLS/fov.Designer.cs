@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fov));
             this.cbFov = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtInfo = new System.Windows.Forms.RichTextBox();
@@ -38,6 +39,8 @@
             this.txtRec = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnOpenFolder = new System.Windows.Forms.Button();
+            this.txtExe = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,15 +78,15 @@
             this.txtInfo.ReadOnly = true;
             this.txtInfo.Size = new System.Drawing.Size(478, 146);
             this.txtInfo.TabIndex = 15;
-            this.txtInfo.Text = "Fov changer only works after using FovSwapper look at github for it and use it at" +
-    " your own risk because looks sospicius. This program only changes your .ini sett" +
-    "ings which is 100% allowed. \n";
+            this.txtInfo.Text = resources.GetString("txtInfo.Text");
             // 
             // btnAppFov
             // 
+            this.btnAppFov.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAppFov.ForeColor = System.Drawing.Color.White;
             this.btnAppFov.Location = new System.Drawing.Point(620, 102);
             this.btnAppFov.Name = "btnAppFov";
-            this.btnAppFov.Size = new System.Drawing.Size(110, 23);
+            this.btnAppFov.Size = new System.Drawing.Size(133, 23);
             this.btnAppFov.TabIndex = 17;
             this.btnAppFov.Text = "Apply Fov";
             this.btnAppFov.UseVisualStyleBackColor = true;
@@ -141,18 +144,42 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(282, 146);
             this.richTextBox1.TabIndex = 22;
-            this.richTextBox1.Text = "Instructions\n1. Select FOV \n2. Enable Read Only\n3. Apply Fov\n4. Create a custom r" +
-    "esolution with the recommended resolution\n\n";
+            this.richTextBox1.Text = "Instructions\n1. Backup Replace INI \n2. Select Fov \n3. Enable Read Only\n4. Apply F" +
+    "ov\n\n\n";
             // 
             // btnOpenFolder
             // 
+            this.btnOpenFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenFolder.ForeColor = System.Drawing.Color.White;
             this.btnOpenFolder.Location = new System.Drawing.Point(620, 64);
             this.btnOpenFolder.Name = "btnOpenFolder";
-            this.btnOpenFolder.Size = new System.Drawing.Size(110, 23);
+            this.btnOpenFolder.Size = new System.Drawing.Size(133, 23);
             this.btnOpenFolder.TabIndex = 23;
             this.btnOpenFolder.Text = "Open Config Folder";
             this.btnOpenFolder.UseVisualStyleBackColor = true;
             this.btnOpenFolder.Click += new System.EventHandler(this.BtnOpenFolder_Click);
+            // 
+            // txtExe
+            // 
+            this.txtExe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.txtExe.ForeColor = System.Drawing.Color.Silver;
+            this.txtExe.Location = new System.Drawing.Point(-3, 544);
+            this.txtExe.Name = "txtExe";
+            this.txtExe.ReadOnly = true;
+            this.txtExe.Size = new System.Drawing.Size(601, 20);
+            this.txtExe.TabIndex = 24;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(620, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(133, 23);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Backup Replace INI";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // fov
             // 
@@ -160,6 +187,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
             this.ClientSize = new System.Drawing.Size(831, 586);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtExe);
             this.Controls.Add(this.btnOpenFolder);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.txtRec);
@@ -191,5 +220,7 @@
         private System.Windows.Forms.TextBox txtRec;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnOpenFolder;
+        private System.Windows.Forms.TextBox txtExe;
+        private System.Windows.Forms.Button button1;
     }
 }
