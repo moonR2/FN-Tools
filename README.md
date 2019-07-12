@@ -4,7 +4,7 @@ Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 ![FN Tools](https://i.imgur.com/rWvH3Qz.png)
 
 ## Features
-* Fov changer working added!
+* Fov changer working added!(ONLY WORKS FOR 1920 x 1080 displays)
 * News and Server Status.(Deprecated)
 * Load Stats from player.(Deprecated)
 * Set custom resolutions not possible via the in-game menu.
