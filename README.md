@@ -1,16 +1,17 @@
 # FN-Tools 1.1
 Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 
-![FN Tools](https://i.imgur.com/eTsHwtF.png)
+![FN Tools](https://i.imgur.com/rWvH3Qz.png)
 
 ## Features
-* News and Server Status. 
-* Load Stats from player.
+* Add a fov changer it only can be used after using fov-swapper.
+* News and Server Status.(Deprecated)
+* Load Stats from player.(Deprecated)
 * Set custom resolutions not possible via the in-game menu.
 * Set FPS limit to any value
 * Force FULL-SCREEN MODE
 * Allows enable the read-only property to the config file
-* Record your session game stats (Only available for pc at the moment)
+* Record your session game stats (Only available for pc at the moment). (Deprecated)
 * Take control of Fortnite with fast and safe edit of your configuration file.
 
 More features coming!!
