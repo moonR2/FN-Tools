@@ -118,12 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnCfg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnFov.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnFov.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnFov.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFov.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 206</value>
+  </data>
+  <data name="btnFov.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 0, 0, 0</value>
+  </data>
+  <data name="btnFov.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 47</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnFov.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnFov.Text" xml:space="preserve">
+    <value>Fov Slider</value>
+  </data>
+  <data name="btnFov.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnFov.Name" xml:space="preserve">
+    <value>btnFov</value>
+  </data>
+  <data name="&gt;&gt;btnFov.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFov.Parent" xml:space="preserve">
+    <value>SideMenu</value>
+  </data>
+  <data name="&gt;&gt;btnFov.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCfg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="btnCfg.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Exo 2 Medium, 15.75pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="btnCfg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -137,7 +177,6 @@
   <data name="btnCfg.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 47</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnCfg.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
@@ -157,13 +196,13 @@
     <value>SideMenu</value>
   </data>
   <data name="&gt;&gt;btnCfg.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnSupport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="btnSupport.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Exo 2 Medium, 15.75pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="btnSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -196,13 +235,13 @@
     <value>SideMenu</value>
   </data>
   <data name="&gt;&gt;btnSupport.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnResolution.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="btnResolution.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Exo 2 Medium, 15.75pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
   </data>
   <data name="btnResolution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -235,85 +274,7 @@
     <value>SideMenu</value>
   </data>
   <data name="&gt;&gt;btnResolution.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Exo 2 Medium, 15.75pt, style=Bold</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 206</value>
-  </data>
-  <data name="button1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>40, 0, 0, 0</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 47</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Session </value>
-  </data>
-  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>SideMenu</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="btnStats.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnStats.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Exo 2 Medium, 15.75pt, style=Bold</value>
-  </data>
-  <data name="btnStats.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 153</value>
-  </data>
-  <data name="btnStats.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>40, 0, 0, 0</value>
-  </data>
-  <data name="btnStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 47</value>
-  </data>
-  <data name="btnStats.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnStats.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="btnStats.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;btnStats.Name" xml:space="preserve">
-    <value>btnStats</value>
-  </data>
-  <data name="&gt;&gt;btnStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStats.Parent" xml:space="preserve">
-    <value>SideMenu</value>
-  </data>
-  <data name="&gt;&gt;btnStats.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -340,7 +301,7 @@
     <value>SideMenu</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="SideMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>

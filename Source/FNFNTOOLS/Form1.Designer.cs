@@ -33,10 +33,9 @@
             this.btnCfg = new System.Windows.Forms.Button();
             this.btnSupport = new System.Windows.Forms.Button();
             this.btnResolution = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnStats = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ParentPanel = new System.Windows.Forms.Panel();
+            this.btnFov = new System.Windows.Forms.Button();
             this.SideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -44,11 +43,10 @@
             // SideMenu
             // 
             this.SideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.SideMenu.Controls.Add(this.btnFov);
             this.SideMenu.Controls.Add(this.btnCfg);
             this.SideMenu.Controls.Add(this.btnSupport);
             this.SideMenu.Controls.Add(this.btnResolution);
-            this.SideMenu.Controls.Add(this.button1);
-            this.SideMenu.Controls.Add(this.btnStats);
             this.SideMenu.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.SideMenu, "SideMenu");
             this.SideMenu.Name = "SideMenu";
@@ -87,28 +85,6 @@
             this.btnResolution.UseVisualStyleBackColor = true;
             this.btnResolution.Click += new System.EventHandler(this.btnResolution_Click_1);
             // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnStats
-            // 
-            this.btnStats.FlatAppearance.BorderSize = 0;
-            this.btnStats.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnStats.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
-            resources.ApplyResources(this.btnStats, "btnStats");
-            this.btnStats.ForeColor = System.Drawing.Color.White;
-            this.btnStats.Name = "btnStats";
-            this.btnStats.UseVisualStyleBackColor = true;
-            this.btnStats.Click += new System.EventHandler(this.btnStats_Click_1);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FNFNTOOLS.Properties.Resources.Logo_text;
@@ -121,6 +97,17 @@
             // 
             resources.ApplyResources(this.ParentPanel, "ParentPanel");
             this.ParentPanel.Name = "ParentPanel";
+            // 
+            // btnFov
+            // 
+            this.btnFov.FlatAppearance.BorderSize = 0;
+            this.btnFov.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnFov.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
+            resources.ApplyResources(this.btnFov, "btnFov");
+            this.btnFov.ForeColor = System.Drawing.Color.White;
+            this.btnFov.Name = "btnFov";
+            this.btnFov.UseVisualStyleBackColor = true;
+            this.btnFov.Click += new System.EventHandler(this.BtnFov_Click);
             // 
             // Form1
             // 
@@ -146,10 +133,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         internal System.Windows.Forms.Panel ParentPanel;
         private System.Windows.Forms.Button btnResolution;
-        private System.Windows.Forms.Button btnStats;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnSupport;
         private System.Windows.Forms.Button btnCfg;
+        private System.Windows.Forms.Button btnFov;
     }
 }
 

@@ -33,7 +33,7 @@ namespace FNFNTOOLS
             {
                 ParentPanel.Controls.RemoveAt(0);
             }
-            news myForm = new news();
+            support myForm = new support();
             myForm.TopLevel = false;
             myForm.FormBorderStyle = FormBorderStyle.None;
             myForm.Dock = DockStyle.Fill;
@@ -103,7 +103,7 @@ namespace FNFNTOOLS
             {
                 ParentPanel.Controls.RemoveAt(0);
             }
-            news myForm = new news();
+            support myForm = new support();
             myForm.TopLevel = false;
             myForm.FormBorderStyle = FormBorderStyle.None;
             myForm.Dock = DockStyle.Fill;
@@ -134,6 +134,21 @@ namespace FNFNTOOLS
                 ParentPanel.Controls.RemoveAt(0);
             }
             cfg myForm = new cfg();
+            myForm.TopLevel = false;
+            myForm.FormBorderStyle = FormBorderStyle.None;
+            myForm.Dock = DockStyle.Fill;
+            ParentPanel.Controls.Add(myForm);
+            ParentPanel.Tag = myForm;
+            myForm.Show();
+        }
+
+        private void BtnFov_Click(object sender, EventArgs e)
+        {
+            if (ParentPanel.Controls.Count > 0)
+            {
+                ParentPanel.Controls.RemoveAt(0);
+            }
+            fov myForm = new fov();
             myForm.TopLevel = false;
             myForm.FormBorderStyle = FormBorderStyle.None;
             myForm.Dock = DockStyle.Fill;
