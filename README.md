@@ -1,3 +1,4 @@
+# THIS PROJECT IS DEPRECATED!
 # FN-Tools 2.0
 Set of tools for Fortnite BR from Epic Games. Requires NET Framework 4.6.1
 
